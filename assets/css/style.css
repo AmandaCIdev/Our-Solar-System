@@ -1,7 +1,9 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
+
 
 #universe {
     background: black;
@@ -49,6 +51,32 @@ html, body {
     margin-top: -30px;
     margin-left: 10px;
     animation: spin 10s linear infinite;
+}
+
+#mars {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background: radial-gradient(hsl(0, 51%, 49%), #a31616);
+    border-radius: 100%;
+    margin-top: -20px;
+    margin-left: 10px;
+    animation: spin 10s linear infinite;
+}
+
+#marsOrbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -450px;
+    margin-left: -450px;
+    z-index: 4;
+    height: 900px;
+    width: 900px;
+    border-radius: 100%;
+    animation: spin 60s linear infinite;
 }
 
 #moonOrbit {
