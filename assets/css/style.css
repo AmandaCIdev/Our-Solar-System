@@ -11,6 +11,16 @@ html, body {
     z-index: 2;
 }
 
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 2rem;
+}
+
 #sun {
     position: absolute;
     z-index: 4;
@@ -110,7 +120,7 @@ html, body {
     height: 1200px;
     width: 1200px;
     border-radius: 100%;
-    animation: spin 40s linear infinite;
+    animation: spin 50s linear infinite;
 }
 
 #mercury {
