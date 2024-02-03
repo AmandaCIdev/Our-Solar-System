@@ -30,16 +30,44 @@ html, body {
     animation: sunFire 1s infinite alternate;
 }
 
+#mercuryOrbit {
+    border: solid 1px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: -150px;
+    margin-left: -155px;
+    z-index: 4;
+    border-radius: 100%;
+    animation: spin 8s linear infinite;
+}
+
+#venusOrbit {
+    border: solid 1px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    margin-top: -200px;
+    margin-left: -205px;
+    z-index: 4;
+    border-radius: 100%;
+    animation: spin 12s linear infinite;
+}
+
 #earthOrbit {
     border: solid 1px red;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -300px;
-    margin-left: -300px;
+    margin-top: -350px;
+    margin-left: -350px;
     z-index: 4;
     height: 700px;
-    width: 600px;
+    width: 700px;
     border-radius: 100%;
     animation: spin 30s linear infinite;
 }
@@ -60,13 +88,55 @@ html, body {
 #marsOrbit {
     border: solid 1px red;
     position: absolute;
-    top: 10%;
-    left: 22%;
+    top: 50%;
+    left: 50%;
     z-index: 4;
     height: 900px;
-    width: 800px;
+    width: 900px;
+    margin-top: -450px;
+    margin-left: -450px;
     border-radius: 100%;
     animation: spin 40s linear infinite;
+}
+
+#jupiterOrbit {
+    border: solid 1px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -600px;
+    margin-left: -600px;
+    z-index: 4;
+    height: 1200px;
+    width: 1200px;
+    border-radius: 100%;
+    animation: spin 40s linear infinite;
+}
+
+#mercury {
+    position: absolute;
+    background: -webkit-linear-gradient(#f1e8e2e8, #4d4a4a);
+    background: -moz-linear-gradient(#f1e8e2e8, #4d4a4a);
+    background: -o-linear-gradient(#f1e8e2e8, #4d4a4a);
+    background: linear-gradient(#f1e8e2e8, #4d4a4a);
+    height: 25px;
+    width: 25px;
+    top: 35%;
+    border-radius: 100%;
+    animation: spin 10s linear infinite;
+}
+
+#venus {
+    position: absolute;
+    background: -webkit-linear-gradient(#f0eeede8, #7ea2a5);
+    background: -moz-linear-gradient(#f0eeede8, #7ea2a5);
+    background: -o-linear-gradient(#f0eeede8, #7ea2a5);
+    background: linear-gradient(#f0eeede8, #7ea2a5);
+    height: 28px;
+    width: 28px;
+    top: 35%;
+    border-radius: 100%;
+    animation: spin 12s linear infinite;
 }
 
 #earth {
@@ -76,6 +146,7 @@ html, body {
     margin-top: -30px;
     margin-left: 10px;
     animation: spin 10s linear infinite;
+    border-radius: 100%;
 }
 
 #moon {
@@ -90,7 +161,6 @@ html, body {
 
 #mars {
     position: absolute;
-    background: orange;
     background: -webkit-linear-gradient(#e96a15e8, #ce3a27);
     background: -moz-linear-gradient(#e96a15e8, #ce3a27);
     background: -o-linear-gradient(#e96a15e8, #ce3a27);
@@ -100,6 +170,19 @@ html, body {
     top: 35%;
     border-radius: 100%;
     animation: spin 10s linear infinite;
+}
+
+#jupiter {
+    position: absolute;
+    background: -webkit-linear-gradient(#a1cf7ce8, #6e430b);
+    background: -moz-linear-gradient(#a1cf7ce8, #6e430b);
+    background: -o-linear-gradient(#a1cf7ce8, #6e430b);
+    background: linear-gradient(#a1cf7ce8, #6e430b);
+    height: 100px;
+    width: 100px;
+    top: 35%;
+    border-radius: 100%;
+    animation: spin 20s linear infinite;
 }
 
 @keyframes sunFire {
