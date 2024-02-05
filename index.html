@@ -8,35 +8,48 @@
 </head>
 <body id="universe">
     <div class="start-screen">
+        <h1>Our Solar System</h1>
+        <p>Choose a planet to learn more!</p>
         <div class="buttons">
-            <h1>Our Solar System</h1>
-            <p>Choose a planet to learn more!</p>
-            <div id="sun"><a href=".sunny"></a></div>
-            <div id="mercuryOrbit">
-                <div id="mercury"><a href=".first"></a></div>
+            <button id="sun-button">Sun</button>
+            <button id="mercury-button">Mercury</button>
+            <button id="venus-button">Venus</button>
+            <button id="earth-button">Earth</button>
+            <button id="mars-button">Mars</button>
+            <button id="jupiter-button">Jupiter</button>
+        </div>
+        <div id="sun"></div>
+        <div id="mercuryOrbit">
+            <div id="mercury"></div>
+        </div>
+        <div id="venusOrbit">
+            <div id="venus"></div>
+        </div>
+        <div id="earthOrbit">
+            <img src="assets/images/Earth.JPG" alt="Earth" width="75" id="earth">
+            <div id="moonOrbit">
+                <div id="moon"></div>
             </div>
-            <div id="venusOrbit">
-                <div id="venus"></div>
-            </div>
-            <div id="earthOrbit">
-                <img src="assets/images/Earth.JPG" alt="Earth" width="75" id="earth">
-                <div id="moonOrbit">
-                    <div id="moon"></div>
-                </div>
-            </div>
-            <div id="marsOrbit">
-                <div id="mars"></div>
-            </div>
-            <div id="jupiterOrbit">
-                <div id="jupiter"></div>
-            </div>
+        </div>
+        <div id="marsOrbit">
+            <div id="mars"></div>
+        </div>
+        <div id="jupiterOrbit">
+            <div id="jupiter"></div>
         </div>
     </div>
     
-    <div class="sunny">
-        <p>hello</p>
-        <button class="return-space">Return to space!</button>
+    
+    <div id="sun-info">
+        <p>Sun</p>
     </div>
+    
+
+    
+    <div id="return-space">
+        <button class="return-space-button">Return to space!</button>
+    </div>
+    
 
     <script src="script.js"></script>
 </body>
